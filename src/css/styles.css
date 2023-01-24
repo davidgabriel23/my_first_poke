@@ -1,0 +1,92 @@
+:root {
+    --font-concert: 'Concert One', cursive;
+    --font-start: 'Press Start 2P', cursive;
+}
+body {
+    background-image: url(../imges/home-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.header-container {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.header-img {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    height: 70px;
+    width: 70px;
+}
+
+.header-title {
+    background-color: rgb(129, 115, 115);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-concert);
+    font-size: 32px;
+
+}
+
+.main-conteiner {
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article-container {
+    background-color: green;
+    height: 400px;
+    width: 360px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-start);
+    font-size: 10px;
+}
+
+.article-imag {
+    background-color: black;
+    width: 360px;
+    height: 360px;
+    margin: 5px;
+
+
+}
+
+.article-content {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-start);
+    font-size: 24px;
+}
+
+
+
+.footer-conteiner {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-concert);
+    font-size: 48px;
+
+
+}
