@@ -3,31 +3,65 @@
     --font-start: 'Press Start 2P', cursive;
 }
 body {
-    background-image: url(../imges/home-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.body-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+   
+  
+}
+.video {
+    height: 100vh;
+}
+
+.body-video::after {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.1292892156862745) 50%, rgba(0,0,0,1) 100%);
+}
+
 
 .header-container {
-    background-color: crimson;
     display: flex;
     align-items: center;
     height: 100px;
 }
 
+.fita-header {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    
+    
+}
+
 .header-img {
-    background-color: blue;
     display: flex;
     align-items: center;
     margin: 15px;
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 150px;
+    justify-content: center;
 }
 
 .header-title {
-    background-color: rgb(129, 115, 115);
     width: 100%;
     display: flex;
     align-items: center;
@@ -80,7 +114,6 @@ body {
 
 
 .footer-conteiner {
-    background-color: aqua;
     height: 50px;
     display: flex;
     justify-content: center;

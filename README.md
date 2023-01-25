@@ -4,3 +4,4 @@ choose your starting pokemon
 <h2 align="center"> 
     🚧  EM CONSTRUÇÃO...  🚧
 </h2>
+g
